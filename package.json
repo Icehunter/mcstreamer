@@ -1,0 +1,30 @@
+{
+  "name": "mcstreamer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "eslint": "eslint --ext .js --quiet ./src/",
+    "test": "lab tests/specs -m 10000 -l -v -c -r console -o stdout -r console -o reports/coverage.txt -r html -o reports/coverage.html -r json -o reports/coverage.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Icehunter/mcstreamer.git"
+  },
+  "author": "Ryan Wilson <syndicated.life@gmail.com> (http://syndicated.life/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Icehunter/mcstreamer/issues"
+  },
+  "homepage": "https://github.com/Icehunter/mcstreamer#readme",
+  "devDependencies": {
+    "chance": "^1.0.3",
+    "code": "^3.0.1",
+    "eslint": "^3.0.1",
+    "lab": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "private": true
+}
